@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт таргетолога</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title"></h1>
+    </header>
+    <!-- Решта коду залишається незмінним -->
+    <!-- ... -->
+    <section id="services" class="services">
+        <h2>Наші послуги</h2>
+        <p>Ми спеціалізуємося на таких послугах:</p>
+        <ul>
+            <li>Створення та оптимізація рекламних кампаній</li>
+            <li>Сегментація аудиторії та розробка стратегій таргетування</li>
+            <li>Аналіз та оптимізація рекламних ресурсів</li>
+        </ul>
+    </section>
+    <section id="about" class="about">
+        <h2>Про нас</h2>
+        <p>Ми - команда професіоналів, яка має великий досвід у таргетуванні та маркетингу. Наша мета - допомогти вам досягти ваших цілей через ефективну рекламу.</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Зв'яжіться з нами</h2>
+        <form id="contact-form">
+            <label for="name" >Ім'я:</label>
+            <input type="text" id="name" name="name" required id="messageInput">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required id="messageInput">
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required id="messageInput"></textarea>
+            <button type="submit" id="sendEmailBtn" onclick="sendMessage()">Надіслати</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Сайт таргетолога. Усі права захищено.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
