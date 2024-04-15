@@ -26,7 +26,7 @@ window.onload = typeWriter;
 // Функція для надсилання повідомлення на Telegram
 function sendTelegramMessage(message) {
     const botToken = '6829434566:AAEcMJO_oK0oj-1-r6TqdruijyR5hc6qlSE'; // Замініть на свій токен бота
-    const chatId = 'Maungor'; // Замініть на свій chat_id
+    const chatId = '1149434704'; // Замініть на свій chat_id
 
     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
     const data = {
